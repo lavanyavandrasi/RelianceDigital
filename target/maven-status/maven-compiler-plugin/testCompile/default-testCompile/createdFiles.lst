@@ -1,0 +1,6 @@
+com\qa\testscript\TestBase.class
+com\qa\pages\ReliancePages.class
+com\qa\testscript\TC_Reliance_02.class
+com\qa\testscript\TC_Reliance_01.class
+com\qa\utility\ExcelUtility.class
+com\qa\utility\Reporting.class

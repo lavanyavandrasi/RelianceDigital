@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.qa.utility.Reporting"/>
+  </listeners>
+  <test name="FunctionalTesting(failed)">
+    <parameter name="Url" value="https://www.reliancedigital.in/"/>
+    <classes>
+      <class name="com.qa.testscript.TC_Reliance_01">
+        <methods>
+          <include name="setUp"/>
+          <include name="Search" invocation-numbers="0 1"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.testscript.TC_Reliance_01 -->
+    </classes>
+  </test> <!-- FunctionalTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->
